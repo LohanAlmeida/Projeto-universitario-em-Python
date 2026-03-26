@@ -38,10 +38,10 @@ Valor total: R$69.0
 
 ⚙️ Tecnologias
 
-Python 3
-Lógica de programação
-Estruturas condicionais
-Tratamento de exceções
+Python 3 /
+Lógica de programação /
+Estruturas condicionais /
+Tratamento de exceções.
 
 📈 Evoluções Planejadas
 🌐 Versão web com Flask
