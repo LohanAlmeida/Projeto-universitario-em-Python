@@ -1,25 +1,56 @@
-Sistema de Pedágio em Python
+🚦 Sistema Inteligente de Pedágio (Python)
 
-Este projeto é um sistema simples de pedágio desenvolvido em Python, que permite calcular automaticamente o valor a ser pago com base no tipo de veículo e no horário de passagem.
+Projeto desenvolvido com foco em lógica de programação e simulação de regras reais de negócio, como cálculo de tarifas dinâmicas em pedágios.
 
-📌 Funcionalidades
-Seleção de tipo de veículo
-Cálculo automático de tarifas
-Adicional de 20% em horários de pico
-Tratamento de erros de entrada do usuário
-Cálculo especial para caminhões (por quantidade de eixos)
+💡 Sobre o Projeto
 
-🧠 Lógica do Sistema
+Este sistema simula um pedágio automatizado capaz de:
 
-O sistema funciona em três etapas principais:
+Identificar o tipo de veículo
+Calcular tarifas com base em regras específicas
+Aplicar taxa adicional em horários de pico
+Tratar entradas inválidas do usuário
 
-Escolha do veículo
-O usuário seleciona o tipo de automóvel
-Caso seja caminhão, informa a quantidade de eixos
-Horário de passagem
-O sistema verifica se está em horário de pico:
-06h às 08h
-17h às 20h
-Cálculo da taxa
-Horário normal → valor padrão
-Horário de pico → acréscimo de 20%
+🧠 Regras de Negócio
+
+🚗 Carros: valor fixo
+🏍️ Motos: valor reduzido
+🚛 Caminhões: valor base + taxa por eixo
+🏛️ Veículos oficiais: isentos
+⏰ Horário de pico (06–08h / 17–20h): +20%
+
+🖥️ Demonstração
+
+=======Pedagio=======
+-----------------------
+[1] - Carro de Passeio = R$10.00
+[2] - Caminhão = R$15.00
+[3] - Motocicleta = R$5.00
+[4] - Veiculo oficial = R$0.00
+-----------------------
+
+Identifique seu automovel: 2
+Quantidade de eixos: 3
+Horario de passagem: 7
+
+Automóvel: Caminhão
+Valor total: R$69.0
+
+⚙️ Tecnologias
+
+Python 3
+Lógica de programação
+Estruturas condicionais
+Tratamento de exceções
+
+📈 Evoluções Planejadas
+🌐 Versão web com Flask
+📊 Dashboard com estatísticas
+🗄️ Integração com banco de dados
+🎨 Interface gráfica (Tkinter ou Web)
+
+🚀 Diferenciais do Projeto
+Simulação de cenário real (pedágio)
+Aplicação de regras dinâmicas
+Código estruturado e reutilizável
+Base pronta para evolução em sistema web
